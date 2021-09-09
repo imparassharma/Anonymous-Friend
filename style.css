@@ -1,0 +1,387 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(207, 228, 253);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -10px;
+}
+
+header h1{
+    margin-left: 100px;
+    font-size: 45px;
+    text-align: center;
+}
+
+header h1 span{
+    color: rgb(0, 80, 252);
+}
+
+nav li{
+    list-style-type: none;
+    margin-left: 320px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+#link-btn{
+    background-color: rgb(228, 27, 27);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+#link-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 60vh;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.container1 p{
+    width: 70%;
+    line-height: 25px;
+}
+
+.container1 h1 span{
+    color: rgb(17, 0, 252);
+}
+
+.container1 p span{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+
+.container1 a{
+    margin-top: 25px;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background-color: rgb(24, 84, 196);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.container2{
+    margin-top: 10px;
+    height: 80vh;
+    width: 75%;
+    background-image: url(images/section1-bg.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.play-btn a{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: black;
+    left: 580px;
+    bottom: 200px;
+    background-image: url(images/play-btn.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid black 5px;
+}
+
+.section2{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section2{
+    margin-top: 100px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section2 span{
+    color: blue;
+}
+
+.box{
+    display: flex;
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(16, 90, 160);
+    margin-right: 25px;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px blue;
+    box-shadow: 2px 2px 0px 1px black;
+    
+}
+
+.box h3{
+    color: white;
+    font-weight: 200;
+    width: 80%;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 400px;
+    height: 100px;
+    margin-right: 25px;
+    
+}
+
+.section3{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3 span{
+    color: blue;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    margin-top: 25px;
+    background-color: rgb(6, 7, 59);
+    border-radius: 10px;
+    border: solid 2px rgb(255, 0, 0);
+    padding-right: 10px;
+}
+
+.container5 h2{
+    color: white;
+}
+
+.section3 p{
+    font-size: 14px;
+}
+
+.section3 p span{
+    color: red;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 100px;
+}
+
+.col{
+    margin-right: 10px ;
+}
+
+.col a{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(72, 33, 247);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+.col :hover{
+    background-color: gold;
+    color: black;
+    font-weight: 600;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160vh;
+}
+
+.section4 h1{
+    font-size: 64px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    padding: 30px 160px;
+    background-color: rgb(0, 0, 0);
+}
+
+.container h1{
+    font-size: 28px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 50px;
+    color: white;
+}
+
+.text h1{
+    color: rgb(255, 255, 255);
+}
+
+.text span{
+    color: rgb(255, 0, 0);
+}
+
+.img{
+    width: 800px;
+    height: 300px;
+    background-image: url(images/security.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 200px;
+    border: solid 2px white;
+}
+
+.container7{
+    background-color: rgb(6, 7, 59);
+    flex-direction: row-reverse;
+}
+
+.img2{
+    width: 500px;
+    background-image: url(images/expert.jpg);
+    margin-left: 0;
+    margin-right: 340px;
+    border: solid 2px rgb(3, 3, 3);
+}
+
+.text2{
+    width: 400px;
+    margin-left: -50px;
+}
+
+.text2 h1{
+    color: rgb(255, 255, 255);
+}
+
+.text2 p{
+    color: rgb(255, 255, 255);
+}
+
+.img3{
+    background-image: url(images/service.jpg);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1{
+    font-size: 64px;
+    color: black;
+    margin-top: 150px;
+}
+
+.container9{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.address{
+    width: 400px
+}
+
+.address img{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+.address p{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: -45px;
+}
+
+.contact{
+    width: 300px;
+    margin-left: 100px;
+}
+
+.contact img{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+
+}
+
+.contact p{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.links p{
+    margin-left: 70px;
+}
